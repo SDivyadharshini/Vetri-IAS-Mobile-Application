@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:background="#F63939"
+                android:src="@drawable/gallerypic" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="20dp"
+                android:background="#ffffff"
+                android:src="@drawable/vetricut" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:background="#F63939"
+                android:src="@drawable/student" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="187dp"
+                android:layout_marginTop="20dp"
+                android:background="#ffffff"
+                android:src="@drawable/img" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="186dp"
+                android:layout_marginTop="20dp"
+                android:background="#F63939"
+                android:src="@drawable/sir" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
